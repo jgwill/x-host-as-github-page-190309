@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build:docs":"ng build --prod --output-path docs --base-href /x-host-as-github-page-190309/docs",
+    "build:docs":"ng build --prod --output-path docs --base-href /x-host-as-github-page-190309/docs && cp docs/index.html docs/404.html &&git add docs/* ;  git commit docs -m \"docs updated\" && git push docs",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
