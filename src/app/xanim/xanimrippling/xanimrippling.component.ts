@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class XanimripplingComponent implements OnInit {
 
   constructor() { 
-    this.radius = 144;
+    this.radius = 255;
     this.centered= false;
   }
 

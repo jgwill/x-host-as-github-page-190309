@@ -9,6 +9,7 @@
     "commit:docs": "git add docs/* ;  git commit docs -m \"docs updated\" && git push",
     "release:docs":"npm run build:docs && npm run commit:docs",
     "browse:release":"gixb https://jgwill.github.io/x-host-as-github-page-190309/",
+    "browse:repo":"gixb https://github.com/jgwill/x-host-as-github-page-190309/",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

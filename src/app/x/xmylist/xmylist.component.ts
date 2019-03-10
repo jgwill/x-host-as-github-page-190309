@@ -41,6 +41,12 @@ export class XmylistComponent implements OnInit {
       title: "Material Design Icons",
       url: "https://material.io/tools/icons/?icon=history&style=baseline",
       note: "possible icon you can use with <mat-icon mat-list-icon>folder</mat-icon>"
+    },
+    {
+      title: "GITHUB Repo",
+      url :"https://github.com/jgwill/x-host-as-github-page-190309/"
+      ,
+      note :"repo"
     }
   ];
 
