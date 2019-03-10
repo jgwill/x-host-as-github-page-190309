@@ -3,7 +3,8 @@
   "version": "0.0.2",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0",
+    "start": "npm run serve",
+    "serve": "ng serve --host 0.0.0.0",
     "build:docs": "ng build --prod --output-path docs --base-href /x-host-as-github-page-190309/docs && cp docs/index.html docs/404.html ",
     "commit:docs": "git add docs/* ;  git commit docs -m \"docs updated\" && git push",
     "release:docs":"npm run build:docs && npm run commit:docs",
