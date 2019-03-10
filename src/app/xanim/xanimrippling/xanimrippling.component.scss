@@ -1,0 +1,26 @@
+.app-xanimrippling-ripple-container {
+   cursor: pointer;
+   text-align: center;
+ 
+   width: 400px;
+   height: 60px;
+   line-height: 54px;
+ 
+   user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+ 
+   -webkit-user-drag: none;
+   -webkit-tap-highlight-color: transparent;
+ }
+ 
+ /** Styles to make the demo look better. */
+ .app-xanimrippling-ripple-checkbox {
+   margin: 6px 12px 6px 0;
+ }
+ 
+ .app-xanimrippling-ripple-form-field {
+   margin: 0 12px 0 0;
+ }
+ 

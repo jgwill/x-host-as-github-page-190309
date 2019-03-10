@@ -37,7 +37,7 @@ export class XmylistComponent implements OnInit {
       note: "Advise user that the action was received"
     },
     {
-      icon:"3d_rotation",
+      icon: "3d_rotation",
       title: "Material Design Icons",
       url: "https://material.io/tools/icons/?icon=history&style=baseline",
       note: "possible icon you can use with <mat-icon mat-list-icon>folder</mat-icon>"

@@ -11,19 +11,27 @@ import { XmylistComponent } from './x/xmylist/xmylist.component';
 
 
 import {MatTableModule} from '@angular/material/table';
+import {MatRippleModule} from '@angular/material/core'; 
 
+import { XmdiconlistComponent } from './x/xmdiconlist/xmdiconlist.component';
+import { XanimripplingComponent } from './xanim/xanimrippling/xanimrippling.component';
 
+import {MatCheckboxModule} from '@angular/material/checkbox'; 
+
+import {MatFormFieldModule} from '@angular/material/form-field'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     XgridsysComponent,
-    XmylistComponent
+    XmylistComponent,
+    XmdiconlistComponent,
+    XanimripplingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatGridListModule,MatIconModule,MatListModule,MatTableModule
+    BrowserAnimationsModule,MatGridListModule,MatIconModule,MatListModule,MatTableModule,MatRippleModule,MatCheckboxModule,MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
