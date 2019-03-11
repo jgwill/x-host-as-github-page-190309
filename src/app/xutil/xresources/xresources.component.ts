@@ -27,6 +27,7 @@ export class XresourcesComponent implements OnInit {
   }
 
 
+  displayedColumns: string[] = ['icon', 'title', 'note'];
   resources: Resource[] = [
     {
       icon: "list",
