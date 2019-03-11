@@ -43,6 +43,36 @@ export class XmylistComponent implements OnInit {
       note: "possible icon you can use with <mat-icon mat-list-icon>folder</mat-icon>"
     },
     {
+      icon: "format_color_fill",
+      title: "Material Design Theme",
+      url: "https://material.angular.io/?theme=indigo-pink",
+      note: "theme=indigo-pink"
+    },
+    {
+      icon: "format_color_fill",
+      title: "Material Design Theme",
+      url: "https://material.angular.io/?theme=purple-green",
+      note: "theme=purple-green"
+    },
+    {
+      icon: "format_color_fill",
+      title: "Material Design Theme",
+      url: "https://material.angular.io/?theme=pink-bluegrey",
+      note: "theme=pink-bluegrey"
+    },
+    {
+      icon: "format_color_fill",
+      title: "Material Design Theme",
+      url: "https://material.angular.io/?theme=deeppurple-amber",
+      note: "theme=deeppurple-amber"
+    },
+    {
+      icon: "format_color_fill",
+      title: "Defining a custom theme",
+      url: "https://material.angular.io/guide/theming#defining-a-custom-theme",
+      note: "When you want more customization than a pre-built theme offers, you can create your own theme file."
+    },
+    {
       title: "GITHUB Repo",
       url :"https://github.com/jgwill/x-host-as-github-page-190309/"
       ,

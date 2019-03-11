@@ -9,12 +9,12 @@ import { AppComponent } from './app.component';
 import { XgridsysComponent } from './x/xgridsys/xgridsys.component';
 import { XmylistComponent } from './x/xmylist/xmylist.component';
 
+import { XmdiconlistComponent } from './x/xmdiconlist/xmdiconlist.component';
+import { XanimripplingComponent } from './xanim/xanimrippling/xanimrippling.component';
+
 
 import {MatTableModule} from '@angular/material/table';
 import {MatRippleModule} from '@angular/material/core'; 
-
-import { XmdiconlistComponent } from './x/xmdiconlist/xmdiconlist.component';
-import { XanimripplingComponent } from './xanim/xanimrippling/xanimrippling.component';
 
 import {MatCheckboxModule} from '@angular/material/checkbox'; 
 
@@ -31,7 +31,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatGridListModule,MatIconModule,MatListModule,MatTableModule,MatRippleModule,MatCheckboxModule,MatFormFieldModule
+    BrowserAnimationsModule,
+    MatGridListModule,MatIconModule,MatListModule,MatTableModule,MatRippleModule,MatCheckboxModule,MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

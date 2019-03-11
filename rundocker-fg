@@ -1,0 +1,8 @@
+./stopdocker
+
+docker run -it \
+  -v ${PWD}:/usr/src/app \
+  -v /usr/src/app/node_modules \
+  -p 4230:4230 \
+  --rm \
+	nodalping-x-host-as-github-page-190309

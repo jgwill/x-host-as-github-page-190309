@@ -1,0 +1,2 @@
+docker stop nodalping-x-host-as-github-page-190309-container
+docker rm nodalping-x-host-as-github-page-190309-container

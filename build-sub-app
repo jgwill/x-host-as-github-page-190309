@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#@v build the app to be part of a larger app hosting
+
+app_namespace=x-host-as-github-page-190309
+output_path=dist/$app_namespace
+
+
+ng build --prod --output-path $output_path --base-href /$app_namespace && cd $output_path && cp -f index.html 404.html
+
+
