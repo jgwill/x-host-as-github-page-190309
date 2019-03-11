@@ -1,12 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-export interface Resource {
-  icon?: string;
-  title: string;
-  url: string;
+import {Resource} from '../../resource';
+import {MockResources} from '../../mockresources';
 
-  note?: string;
-}
 export interface Section {
   icon: string;
   name: string;
@@ -20,6 +16,7 @@ export interface Section {
 })
 export class XmylistComponent implements OnInit {
 
+mocksResources :MockResources;
 
   displayedColumns: string[] = ['icon', 'title', 'note'];
 

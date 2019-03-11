@@ -24,6 +24,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTabsModule} from '@angular/material/tabs';
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
+import { XresourcesComponent } from './xutil/xresources/xresources.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { GixendofComponent } from './xutil/gixendof/gixendof.component';
     GixiconTableComponent,
     GixiconsILoveComponent,
     XtabsComponent,
-    GixendofComponent
+    GixendofComponent,
+    XresourcesComponent
   ],
   imports: [
     BrowserModule,
