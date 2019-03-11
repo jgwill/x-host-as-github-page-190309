@@ -12,6 +12,8 @@ export class StateClass {
 })
 export class GixendofComponent implements OnInit {
 
+  urlrepobase= "https://github.com/jgwill/x-host-as-github-page-190309/blob/master/";
+  
   @Input() goal: string;
   @Input() path: string;
   @Input() state?: string;
