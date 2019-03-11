@@ -1,6 +1,6 @@
 {
   "name": "xhostasgithubpages190309",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "npm run serve && npm run browse:dev",

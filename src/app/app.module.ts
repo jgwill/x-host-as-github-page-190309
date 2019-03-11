@@ -18,7 +18,9 @@ import {MatRippleModule} from '@angular/material/core';
 
 import {MatCheckboxModule} from '@angular/material/checkbox'; 
 
-import {MatFormFieldModule} from '@angular/material/form-field'; 
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { GixiconTableComponent } from './gixicons/gixicon-table/gixicon-table.component';
+import { GixiconsILoveComponent } from './gixicons/gixicons-ilove/gixicons-ilove.component'; 
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     XgridsysComponent,
     XmylistComponent,
     XmdiconlistComponent,
-    XanimripplingComponent
+    XanimripplingComponent,
+    GixiconTableComponent,
+    GixiconsILoveComponent
   ],
   imports: [
     BrowserModule,
