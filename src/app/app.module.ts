@@ -11,6 +11,9 @@ import { XmylistComponent } from './x/xmylist/xmylist.component';
 
 import { XmdiconlistComponent } from './x/xmdiconlist/xmdiconlist.component';
 import { XanimripplingComponent } from './xanim/xanimrippling/xanimrippling.component';
+import { GixiconTableComponent } from './gixicons/gixicon-table/gixicon-table.component';
+import { GixiconsILoveComponent } from './gixicons/gixicons-ilove/gixicons-ilove.component';
+import { XtabsComponent } from './x/xtabs/xtabs.component'; 
 
 
 import {MatTableModule} from '@angular/material/table';
@@ -19,8 +22,8 @@ import {MatRippleModule} from '@angular/material/core';
 import {MatCheckboxModule} from '@angular/material/checkbox'; 
 
 import {MatFormFieldModule} from '@angular/material/form-field';
-import { GixiconTableComponent } from './gixicons/gixicon-table/gixicon-table.component';
-import { GixiconsILoveComponent } from './gixicons/gixicons-ilove/gixicons-ilove.component'; 
+import {MatTabsModule} from '@angular/material/tabs';
+import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +33,15 @@ import { GixiconsILoveComponent } from './gixicons/gixicons-ilove/gixicons-ilove
     XmdiconlistComponent,
     XanimripplingComponent,
     GixiconTableComponent,
-    GixiconsILoveComponent
+    GixiconsILoveComponent,
+    XtabsComponent,
+    GixendofComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule,MatIconModule,MatListModule,MatTableModule,MatRippleModule,MatCheckboxModule,MatFormFieldModule
+    MatGridListModule,MatIconModule,MatListModule,MatTableModule,MatRippleModule,MatCheckboxModule,MatFormFieldModule,    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

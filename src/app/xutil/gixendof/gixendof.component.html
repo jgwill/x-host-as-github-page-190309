@@ -1,0 +1,21 @@
+<hr>
+<div id="gixendof-wrapper">
+
+  <h5>Goal : {{goal}}</h5>
+  <h6 *ngIf="state" [class]="'state-' + state">State: {{
+     state == "inprogress"?
+      "In Progress"
+      :
+      state == "completed"?
+      "Completed"
+      :
+      "In review"
+
+    }}</h6>
+
+  <p>End of : {{path}}</p>
+  <!--@a Todo Add Link to Repo-->
+
+</div>
+<hr>
+<hr>

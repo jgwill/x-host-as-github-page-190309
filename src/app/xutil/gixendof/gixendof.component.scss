@@ -1,0 +1,15 @@
+.state{}
+
+.state-progressing,.state-inprogress{
+   color: blue;
+}
+.state-completed,.state-complete{
+   color:green;
+}
+.state-reviewing,.state-inreview{
+   color : magenta;
+}
+.state-abandoned{
+   color: brown;
+}
+
