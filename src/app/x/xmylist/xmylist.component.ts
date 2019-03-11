@@ -3,11 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import {Resource} from '../../resource';
 import {MockResources} from '../../mockresources';
 
-export interface Section {
-  icon: string;
-  name: string;
-  updated: Date;
-}
+import {Section} from '../../section';
+
 
 @Component({
   selector: 'app-xmylist',
@@ -16,10 +13,10 @@ export interface Section {
 })
 export class XmylistComponent implements OnInit {
 
-mocksResources :MockResources;
+  
 
   displayedColumns: string[] = ['icon', 'title', 'note'];
-
+  
   resources: Resource[] = [
     {
       icon: "list",

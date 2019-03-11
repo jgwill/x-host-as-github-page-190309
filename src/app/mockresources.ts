@@ -1,9 +1,7 @@
 import {Resource} from "./resource";
 
 
-export class MockResources {
-   
-   resources: Resource[] = [
+export const MockResources: Resource[]  =[
    {
      icon: "list",
      title: "Material ANgular List",
@@ -58,4 +56,4 @@ export class MockResources {
      ,
      note :"repo"
    }
- ]};
+ ];

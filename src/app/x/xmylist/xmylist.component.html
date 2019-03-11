@@ -7,6 +7,7 @@
 <!--####### Start TABLE RESOURCES #####-->
 <!--@Mastery @Angular/Material/Table-->
 <!--@feature This display a list of resources for this Mastery Material Design Experimentation -->
+<!--@issue , not loading the MOCKs <xresources></xresources>-->
 <table mat-table [dataSource]="resources" class="mat-elevation-z8 tblresource">
 
   <!--- Note that these columns can be defined in any order.
@@ -51,26 +52,3 @@
 </table>
 <!--############## END TABLE ############-->
 <br><br>
-<br>
-src/app/x/xmylist/xmylist.component.html
-<br>
-<hr>
-<h2>List</h2>
-<!--@Mastery Material LIST-->
-<button mat-icon-button><mat-icon>home</mat-icon></button>
-<hr>
-<mat-list>
-  <h3 mat-subheader>Folders</h3>
-  <mat-list-item *ngFor="let folder of folders">
-    <mat-icon mat-list-icon>{{folder.icon}}</mat-icon>
-    <h4 mat-line>{{folder.name}}</h4>
-    <p mat-line> {{folder.updated | date}} </p>
-  </mat-list-item>
-  <mat-divider></mat-divider>
-  <h3 mat-subheader>Notes</h3>
-  <mat-list-item *ngFor="let note of notes">
-    <mat-icon mat-list-icon>{{note.icon}}</mat-icon>
-    <h4 mat-line>{{note.name}}</h4>
-    <p mat-line> {{note.updated | date}} </p>
-  </mat-list-item>
-</mat-list>
