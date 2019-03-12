@@ -13,16 +13,18 @@ import { XmdiconlistComponent } from './x/xmdiconlist/xmdiconlist.component';
 import { XanimripplingComponent } from './xanim/xanimrippling/xanimrippling.component';
 import { GixiconTableComponent } from './gixicons/gixicon-table/gixicon-table.component';
 import { GixiconsILoveComponent } from './gixicons/gixicons-ilove/gixicons-ilove.component';
-import { XtabsComponent } from './x/xtabs/xtabs.component'; 
+import { XtabsComponent } from './x/xtabs/xtabs.component';
 
 
-import {MatTableModule} from '@angular/material/table';
-import {MatRippleModule} from '@angular/material/core'; 
+import { MatTableModule } from '@angular/material/table';
+import { MatRippleModule } from '@angular/material/core';
 
-import {MatCheckboxModule} from '@angular/material/checkbox'; 
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatTabsModule} from '@angular/material/tabs';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatSidenavModule } from '@angular/material/sidenav';
+
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
 
@@ -43,7 +45,7 @@ import { XresourcesComponent } from './xutil/xresources/xresources.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule,MatIconModule,MatListModule,MatTableModule,MatRippleModule,MatCheckboxModule,MatFormFieldModule,    MatTabsModule
+    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
