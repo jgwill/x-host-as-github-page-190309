@@ -43,6 +43,7 @@ import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
 import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
 import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.component';
+import { Dt2agePipe } from './pipe/dt2age.pipe';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.compone
     GixendofComponent,
     XresourcesComponent,
     XmenusideComponent,
-    XformnewuserComponent
+    XformnewuserComponent,
+    Dt2agePipe
   ],
   imports: [
     BrowserModule,

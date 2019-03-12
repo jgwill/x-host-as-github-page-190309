@@ -3,14 +3,14 @@ First, Last, Email, Birth (implication: Age)
 </p>
 
 <form class="example-form">
+<!--@feature Doctor-->
+<mat-form-field class="example-full-width">
+    <input matInput placeholder="Dr. Dumais (disabled)" disabled value="HTUHUNeou87o98eu">
+  </mat-form-field>
+  <!--@feature EMAIL-->
     <mat-form-field class="example-full-width">
-      <input matInput placeholder="Email" [formControl]="emailFormControl">
-      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
-        Please enter a valid email address
-      </mat-error>
-      <mat-error *ngIf="emailFormControl.hasError('required')">
-        Email is <strong>required</strong>
-      </mat-error>
+      <input matInput placeholder="Email"  >  
+      
     </mat-form-field>
   </form>
   

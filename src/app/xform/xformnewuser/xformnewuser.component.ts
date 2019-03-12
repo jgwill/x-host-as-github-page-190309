@@ -3,8 +3,6 @@ import { Component, OnInit } from '@angular/core';
 //@o ######### Import for Form
 //@urir https://material.angular.io/components/input/examples
 
-import {FormControl, Validators} from '@angular/forms';
-
 
 
 
@@ -16,13 +14,7 @@ import {FormControl, Validators} from '@angular/forms';
 export class XformnewuserComponent implements OnInit {
 
   //-------------------------
-  emailFormControl = new FormControl('', [
-    Validators.required,
-    Validators.email,
-  ]);
-  
-
-  
+    
 //-----------------------
 
   constructor() { }
