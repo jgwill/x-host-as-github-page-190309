@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 import { Patientuser } from "../../entities/patientuser";
 
@@ -14,19 +14,50 @@ import { Patientuser } from "../../entities/patientuser";
   styleUrls: ['./xformnewuser.component.scss']
 })
 export class XformnewuserComponent implements OnInit {
+managing = true;
 
+  did = "oehuntsoehu897oeu";
+  doctorLabel = "Doctor";
+  firstLabel = "First name";
+  lastLabel = "Last name";
+  emailLabel = "Email";
+  submitLabel = "Add Patient";
+  newLabel = "Reset";
+  editLabel = "Edit Patient";
+  submittedLabel ="You submitted the following:";
+  dtFormat = 'yyyy-MM-dd' ;
   formTitle = "New Patient";
   birthLabel = "Birth Date: ";
+  ageLabel = "Age: "
 
-  genders = ['Homme','Femme','Autre'];
 
-  model = new Patientuser("oehuntsoehu897oeu","mh3tn45htn34h5tn43","Guillaume","Isabelle","1976-05-13",this.genders[0],"jgi@guillaume.com");
 
+  genders = ['Homme', 'Femme', 'Autre'];
+
+  model = new Patientuser(this.did, "mh3tn45htn34h5tn43", "Guillaume", "Isabelle", "1976-05-13", this.genders[0], "jgi@guillaume.com");
+
+
+
+  @ViewChild("newFormWrapper") newFormWrapper: ElementRef;
+  @ViewChild("first") firstField: ElementRef;
 
   submitted = false;
 
 
-  onSubmit() { this.submitted = true; }
+  onSubmit() {
+    this.submitted = true;
+    // this.newPatient();
+   
+  }
+  editPatient()
+  {
+  
+  }
+
+  newPatient() {
+    this.model = new Patientuser(this.did, '', '', '', '', '', '');
+    this.firstField.nativeElement.focus();
+  }
 
   get diagnostic() { return JSON.stringify(this.model); }
 
