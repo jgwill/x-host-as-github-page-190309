@@ -30,6 +30,12 @@ import {MatMenuModule} from '@angular/material/menu';
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
 import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
+import { XroutingdummyComponent } from './xrouting/xroutingdummy/xroutingdummy.component';
+
+
+
+import { Router } from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +49,8 @@ import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
     XtabsComponent,
     GixendofComponent,
     XresourcesComponent,
-    XmenusideComponent
+    XmenusideComponent,
+    XroutingdummyComponent
   ],
   imports: [
     BrowserModule,
@@ -54,4 +61,11 @@ import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  /**
+   *
+   */
+  constructor(router: AppRoutingModule) {
+    
+  }
+}
