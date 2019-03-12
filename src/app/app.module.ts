@@ -30,6 +30,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
 import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
+import { XtablefilteringComponent } from './xtable/xtablefiltering/xtablefiltering.component';
+import { TableFilteringExampleComponent } from './xtable/table-filtering-example/table-filtering-example.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
     XtabsComponent,
     GixendofComponent,
     XresourcesComponent,
-    XmenusideComponent
+    XmenusideComponent,
+    XtablefilteringComponent,
+    TableFilteringExampleComponent
   ],
   imports: [
     BrowserModule,
