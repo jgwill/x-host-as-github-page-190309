@@ -14,9 +14,11 @@ import { Patientuser } from "../../entities/patientuser";
   styleUrls: ['./xformnewuser.component.scss']
 })
 export class XformnewuserComponent implements OnInit {
-managing = true;
+  managing = true;
 
-  did = "oehuntsoehu897oeu";
+  formTitle = "New/Edit Patient";
+
+  did = "oehuntsoehu897oeu"; //@s Mock Doctor ID
   doctorLabel = "Doctor";
   firstLabel = "First name";
   lastLabel = "Last name";
@@ -24,9 +26,8 @@ managing = true;
   submitLabel = "Add Patient";
   newLabel = "Reset";
   editLabel = "Edit Patient";
-  submittedLabel ="You submitted the following:";
-  dtFormat = 'yyyy-MM-dd' ;
-  formTitle = "New Patient";
+  submittedLabel = "You submitted the following:";
+  dtFormat = 'yyyy-MM-dd';
   birthLabel = "Birth Date: ";
   ageLabel = "Age: "
 
@@ -47,11 +48,10 @@ managing = true;
   onSubmit() {
     this.submitted = true;
     // this.newPatient();
-   
+
   }
-  editPatient()
-  {
-  
+  editPatient() {
+
   }
 
   newPatient() {
