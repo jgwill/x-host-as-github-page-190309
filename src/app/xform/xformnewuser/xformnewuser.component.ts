@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Patientuser } from "../../entities/patientuser";
+
 //@o ######### Import for Form
 //@urir https://material.angular.io/components/input/examples
 
@@ -13,9 +15,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class XformnewuserComponent implements OnInit {
 
+  patient: Patientuser;
+
   //-------------------------
-    
-//-----------------------
+
+  //-----------------------
 
   constructor() { }
 
