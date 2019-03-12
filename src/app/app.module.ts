@@ -33,6 +33,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
 import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
+import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
     XtabsComponent,
     GixendofComponent,
     XresourcesComponent,
-    XmenusideComponent
+    XmenusideComponent,
+    XformnewuserComponent
   ],
   imports: [
     BrowserModule,
