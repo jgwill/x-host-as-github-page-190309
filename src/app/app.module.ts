@@ -25,6 +25,15 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import {MatDatepickerModule} from '@angular/material/datepicker'; 
 import {MatRadioModule} from '@angular/material/radio'; 
 
+
+
+//---------------------------
+import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
+import {ErrorStateMatcher} from '@angular/material/core';
+
+import {MatInputModule} from '@angular/material/input';
+
+
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -54,7 +63,10 @@ import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.compone
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule,MatDatepickerModule,MatRadioModule
+    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule,MatDatepickerModule,MatRadioModule,
+    //--------------
+    MatInputModule,FormControl, FormGroupDirective, NgForm, Validators,
+    ErrorStateMatcher
   ],
   providers: [],
   bootstrap: [AppComponent]

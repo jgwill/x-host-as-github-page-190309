@@ -1,6 +1,10 @@
 # Goal : @Mastered Creating Forms and Bind them to a Model
 # Goal : @Mastered Popout form, adding client
 
+## First, Last, Email, Birth (implication: Age)
+### Email
+* Validated
+
 # CR: created some
 
 ## DT pick
