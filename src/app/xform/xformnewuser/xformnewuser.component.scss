@@ -8,3 +8,17 @@
    width: 100%;
  }
  
+ .gender-group mat-radio-button {
+   margin-right: 15px;
+ }
+ 
+
+ /* //@urir https://angular.io/guide/forms#add-custom-css-for-visual-feedback
+  */
+ .ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}

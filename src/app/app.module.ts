@@ -31,8 +31,11 @@ import {MatRadioModule} from '@angular/material/radio';
 // import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
 // import {ErrorStateMatcher} from '@angular/material/core';
 
+import {MatNativeDateModule } from '@angular/material';
+
 import {MatInputModule} from '@angular/material/input';
 
+import { FormsModule }   from '@angular/forms';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTabsModule } from '@angular/material/tabs';
@@ -66,6 +69,8 @@ import { Dt2agePipe } from './pipe/dt2age.pipe';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule,MatDatepickerModule,MatRadioModule,
+    FormsModule,
+    MatNativeDateModule,
     //--------------
     MatInputModule//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
   ],
