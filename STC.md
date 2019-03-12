@@ -4,3 +4,5 @@
  (swipeleft)="swipe(idx, $event.type)" (swiperight)="swipe(idx, $event.type)" 
 ```
 https://scotch.io/tutorials/using-hammerjs-touch-gesture-in-angular-2#toc-introduction
+https://blog.angularindepth.com/gestures-in-an-angular-application-dde71804c0d0
+
