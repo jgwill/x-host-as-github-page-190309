@@ -24,9 +24,12 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import {MatMenuModule} from '@angular/material/menu'; 
+
 
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
+import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
 
 @NgModule({
   declarations: [
@@ -39,13 +42,14 @@ import { XresourcesComponent } from './xutil/xresources/xresources.component';
     GixiconsILoveComponent,
     XtabsComponent,
     GixendofComponent,
-    XresourcesComponent
+    XresourcesComponent,
+    XmenusideComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule
+    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
