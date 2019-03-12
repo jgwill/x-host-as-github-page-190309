@@ -19,17 +19,34 @@ import { XtabsComponent } from './x/xtabs/xtabs.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatRippleModule } from '@angular/material/core';
 
+
 import { MatCheckboxModule } from '@angular/material/checkbox';
+
+import {MatDatepickerModule} from '@angular/material/datepicker'; 
+import {MatRadioModule} from '@angular/material/radio'; 
+
+
+
+//---------------------------
+// import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
+// import {ErrorStateMatcher} from '@angular/material/core';
+
+import {MatNativeDateModule } from '@angular/material';
+
+import {MatInputModule} from '@angular/material/input';
+
+import { FormsModule }   from '@angular/forms';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatMenuModule} from '@angular/material/menu'; 
 
-
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
 import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
+import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.component';
+import { Dt2agePipe } from './pipe/dt2age.pipe';
 
 @NgModule({
   declarations: [
@@ -43,13 +60,19 @@ import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
     XtabsComponent,
     GixendofComponent,
     XresourcesComponent,
-    XmenusideComponent
+    XmenusideComponent,
+    XformnewuserComponent,
+    Dt2agePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule
+    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule,MatDatepickerModule,MatRadioModule,
+    FormsModule,
+    MatNativeDateModule,
+    //--------------
+    MatInputModule//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
   ],
   providers: [],
   bootstrap: [AppComponent]
