@@ -19,13 +19,16 @@ import { XtabsComponent } from './x/xtabs/xtabs.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatRippleModule } from '@angular/material/core';
 
+
 import { MatCheckboxModule } from '@angular/material/checkbox';
+
+import {MatDatepickerModule} from '@angular/material/datepicker'; 
+import {MatRadioModule} from '@angular/material/radio'; 
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatMenuModule} from '@angular/material/menu'; 
-
 
 import { GixendofComponent } from './xutil/gixendof/gixendof.component';
 import { XresourcesComponent } from './xutil/xresources/xresources.component';
@@ -49,7 +52,7 @@ import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule
+    MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule,MatDatepickerModule,MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
