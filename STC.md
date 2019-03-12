@@ -6,6 +6,9 @@
 * Validated
 
 # CR: created some
+#
+
+--@o How do I bind a Model to a Form ?
 
 ## DT pick
 https://material.angular.io/components/datepicker/overview
