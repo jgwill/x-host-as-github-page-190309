@@ -28,8 +28,8 @@ import {MatRadioModule} from '@angular/material/radio';
 
 
 //---------------------------
-import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
-import {ErrorStateMatcher} from '@angular/material/core';
+// import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
+// import {ErrorStateMatcher} from '@angular/material/core';
 
 import {MatInputModule} from '@angular/material/input';
 
@@ -65,8 +65,7 @@ import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.compone
     BrowserAnimationsModule,
     MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule,MatDatepickerModule,MatRadioModule,
     //--------------
-    MatInputModule,FormControl, FormGroupDirective, NgForm, Validators,
-    ErrorStateMatcher
+    MatInputModule//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
   ],
   providers: [],
   bootstrap: [AppComponent]
