@@ -1,5 +1,27 @@
+
+
+
+
+
 # Goal : @Mastered Creating Forms and Bind them to a Model
 # Goal : @Mastered Popout form, adding client
+
+ STC.md                                                    |  48 ++++++++++++++++++++
+ src/app/app.module.ts                                     |  29 ++++++++++--
+ src/app/entities/patientchart.ts                          |  17 +++++++
+ src/app/entities/patientuser.ts                           |  23 ++++++++++
+ src/app/entities/vsign.ts                                 |   6 +++
+ src/app/pipe/dt2age.pipe.ts                               |  28 ++++++++++++
+ src/app/services/age-calculator.service.ts                |  18 ++++++++
+ src/app/services/age-from-date-string.ts                  |  42 +++++++++++++++++
+ src/app/x/xtabs/xtabs.component.html                      |  14 ++++++
+ src/app/xform/xformnewuser/xformnewuser.component.html    | 108 ++++++++++++++++++++++++++++++++++++++++++++
+ src/app/xform/xformnewuser/xformnewuser.component.scss    |  38 ++++++++++++++++
+ src/app/xform/xformnewuser/xformnewuser.component.ts      |  73 ++++++++++++++++++++++++++++++
+ 19 files changed, 514 insertions(+), 3 deletions(-)
+ 
+
+
 
 ## First, Last, Email, Birth (implication: Age)
 ### Email
