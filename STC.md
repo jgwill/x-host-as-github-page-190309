@@ -2,8 +2,9 @@
 
 
 
+# @STCGoal : 
 
-# @STCGoal : Imported the XAnim of beating heart
+CR: Imported the XAnim of beating heart
 
 
 
