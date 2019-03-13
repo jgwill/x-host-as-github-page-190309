@@ -2,9 +2,13 @@
 
 
 
-# @STCGoal : 
+# @STCGoal : Mastery HTTP Call API
 
-CR: Imported the XAnim of beating heart
+
+CR: 
+/x/httpclientangular/src/app
+https://us-central1-telm-novo.cloudfunctions.net/notes2
+https://us-central1-telm-novo.cloudfunctions.net/notes
 
 
 
