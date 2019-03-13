@@ -1,10 +1,10 @@
 
+# @STCGoal : build responsive UIs that react to screen-size changes.
+https://material.angular.io/cdk/layout/overview
 
 
-
-
-# Goal : @Mastered Creating Forms and Bind them to a Model
-# Goal : @Mastered Popout form, adding client
+# Goal : @STCGoal Creating Forms and Bind them to a Model
+# Goal : @STCGoal Popout form, adding client
 
  STC.md                                                    |  48 ++++++++++++++++++++
  src/app/app.module.ts                                     |  29 ++++++++++--
