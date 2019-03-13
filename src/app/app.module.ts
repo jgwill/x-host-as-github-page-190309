@@ -54,6 +54,7 @@ import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.c
 //
 //########################################
 import { HttpClientModule } from '@angular/common/http';
+import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
 
 
 @NgModule({
@@ -71,7 +72,8 @@ import { HttpClientModule } from '@angular/common/http';
     XmenusideComponent,
     XformnewuserComponent,
     Dt2agePipe,
-    XanimHeartbeatComponent
+    XanimHeartbeatComponent,
+    XnoteslistComponent
   ],
   imports: [
     BrowserModule,
