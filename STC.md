@@ -3,10 +3,8 @@
 
 
 
-# Goal : @Mastered Creating Forms and Bind them to a Model
-# Goal : @Mastered Popout form, adding client
+# @STCGoal : Patient Data is Nicely presented in a Card
 
- STC.md                                                    |  48 ++++++++++++++++++++
  src/app/app.module.ts                                     |  29 ++++++++++--
  src/app/entities/patientchart.ts                          |  17 +++++++
  src/app/entities/patientuser.ts                           |  23 ++++++++++

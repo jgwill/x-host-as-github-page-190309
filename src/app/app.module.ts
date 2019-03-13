@@ -47,6 +47,7 @@ import { XresourcesComponent } from './xutil/xresources/xresources.component';
 import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
 import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.component';
 import { Dt2agePipe } from './pipe/dt2age.pipe';
+import { XusercardComponent } from './xuser/xusercard/xusercard.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { Dt2agePipe } from './pipe/dt2age.pipe';
     XresourcesComponent,
     XmenusideComponent,
     XformnewuserComponent,
-    Dt2agePipe
+    Dt2agePipe,
+    XusercardComponent
   ],
   imports: [
     BrowserModule,
