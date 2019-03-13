@@ -3,8 +3,23 @@
 
 
 
-# Goal : @Mastered Creating Forms and Bind them to a Model
-# Goal : @Mastered Popout form, adding client
+# @STCGoal : Imported the XAnim of beating heart
+
+
+
+
+
+
+
+
+
+
+
+
+
+----
+
+# Archives 
 
  STC.md                                                    |  48 ++++++++++++++++++++
  src/app/app.module.ts                                     |  29 ++++++++++--

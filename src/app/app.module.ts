@@ -48,6 +48,9 @@ import { XmenusideComponent } from './xmenu/xmenuside/xmenuside.component';
 import { XformnewuserComponent } from './xform/xformnewuser/xformnewuser.component';
 import { Dt2agePipe } from './pipe/dt2age.pipe';
 
+//app-xanim-heartbeat
+import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,7 +65,8 @@ import { Dt2agePipe } from './pipe/dt2age.pipe';
     XresourcesComponent,
     XmenusideComponent,
     XformnewuserComponent,
-    Dt2agePipe
+    Dt2agePipe,
+    XanimHeartbeatComponent
   ],
   imports: [
     BrowserModule,
