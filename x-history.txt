@@ -1,0 +1,29 @@
+
+ 1762  git branch x-integrated-great-icons-ant-design-190315
+ 1763  git checkout x-integrated-great-icons-ant-design-190315 
+ 1764  yarn add @ant-design/icons-angular --save
+ 1765  cat node_modules/@ant-design/icons-angular/README.md 
+ 1766  du -a ./node_modules/@ant-design/
+ 1767  du -a ./node_modules/@ant-design/ |  grep md
+ 1768  cd node_modules/@ant-design/
+ 1769  ls
+ 1770  cd icons-angular/
+ 1771  ls
+ 1772  yarn
+ 1773  npm run generate
+ 1774  ls -ltr
+ 1775  ls bundles/
+ 1776  cd ..
+ 1777  vi x-ant-design-get-icon.ts
+ 1778  node x-ant-design-get-icon.ts 
+ 1779  vi x-ant-design-get-icon.ts
+ 1780  yarn add @ant-design/icons --save
+ 1781  vi x-ant-design-get-icon.ts
+ 1782  node x-ant-design-get-icon.ts 
+ 1783  vi x-ant-design-get-icon.js
+ 1784  node x-ant-design-get-icon.js 
+ 1785  rm x-ant-design-get-icon.ts 
+ 1786  git add x-ant-design-get-icon.js 
+ 1787  cat x-ant-design-get-icon.js 
+ 1788  vi STC.md 
+ 1789  history >x-history.txt

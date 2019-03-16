@@ -57,7 +57,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
 
 
+//branch icons
 
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 @NgModule({
   declarations: [
@@ -86,7 +88,8 @@ import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
     MatNativeDateModule,
     //--------------
     MatInputModule,//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
-    HttpClientModule
+    HttpClientModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

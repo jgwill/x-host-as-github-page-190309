@@ -2,19 +2,23 @@
 
 
 
-# @STCGoal : Mastery HTTP Call API
+# @STCGoal :  Great Iconography
 
 
-CR: 
-/x/httpclientangular/src/app
-https://us-central1-telm-novo.cloudfunctions.net/notes2
-https://us-central1-telm-novo.cloudfunctions.net/notes
+CR:
+* Ant-Design worked partially, 
+````js
+//That printed the icon SVG code,
+var ant = require("./node_modules/@ant-design/icons-angular/bundles/ant-design-icons-angular-icons.umd");
+
+console.log(ant.AccountBookFill);
+```
 
 
-
-
-
-
+```html
+<!--@urir https://simpleicons.org/ -->
+<img height="32" width="32" src="https://unpkg.com/simple-icons@latest/icons/magento.svg" />
+```
 
 
 
