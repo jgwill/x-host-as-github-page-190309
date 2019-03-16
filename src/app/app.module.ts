@@ -51,6 +51,14 @@ import { Dt2agePipe } from './pipe/dt2age.pipe';
 //app-xanim-heartbeat
 import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.component';
 
+//
+//########################################
+import { HttpClientModule } from '@angular/common/http';
+import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -66,7 +74,8 @@ import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.c
     XmenusideComponent,
     XformnewuserComponent,
     Dt2agePipe,
-    XanimHeartbeatComponent
+    XanimHeartbeatComponent,
+    XnoteslistComponent
   ],
   imports: [
     BrowserModule,
@@ -76,7 +85,8 @@ import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.c
     FormsModule,
     MatNativeDateModule,
     //--------------
-    MatInputModule//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
+    MatInputModule,//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
