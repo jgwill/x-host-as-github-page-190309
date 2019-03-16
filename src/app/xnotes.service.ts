@@ -1,11 +1,14 @@
 import { Injectable } from '@angular/core';
 
+import { environment } from '../environments/environment';
 
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { map, catchError, tap } from 'rxjs/operators';
 
-const endpoint = "https://us-central1-telm-novo.cloudfunctions.net/notes";
+const endpoint = environment.noteapiurl;
+
+//"https://us-central1-telm-novo.cloudfunctions.net/notes2";
 
 
 @Injectable({
