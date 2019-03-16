@@ -31,7 +31,7 @@ import {MatRadioModule} from '@angular/material/radio';
 // import {FormControl, FormGroupDirective, NgForm, Validators} from '@angular/forms';
 // import {ErrorStateMatcher} from '@angular/material/core';
 
-import {MatNativeDateModule } from '@angular/material';
+import {MatNativeDateModule, MatCardModule } from '@angular/material';
 
 import {MatInputModule} from '@angular/material/input';
 
@@ -55,6 +55,7 @@ import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.c
 //########################################
 import { HttpClientModule } from '@angular/common/http';
 import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
+import { SiconComponent } from './sicons/sicon/sicon.component';
 
 
 
@@ -75,13 +76,15 @@ import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
     XformnewuserComponent,
     Dt2agePipe,
     XanimHeartbeatComponent,
-    XnoteslistComponent
+    XnoteslistComponent,
+    SiconComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule, MatIconModule, MatListModule, MatTableModule, MatRippleModule, MatCheckboxModule, MatFormFieldModule, MatTabsModule, MatSidenavModule,MatMenuModule,MatDatepickerModule,MatRadioModule,
+    MatCardModule,
     FormsModule,
     MatNativeDateModule,
     //--------------
