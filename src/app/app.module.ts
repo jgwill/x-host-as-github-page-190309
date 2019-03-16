@@ -56,6 +56,7 @@ import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.c
 import { HttpClientModule } from '@angular/common/http';
 import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
 import { SiconComponent } from './sicons/sicon/sicon.component';
+import { NbThemeModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
 
 
 
@@ -89,7 +90,10 @@ import { SiconComponent } from './sicons/sicon/sicon.component';
     MatNativeDateModule,
     //--------------
     MatInputModule,//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
-    HttpClientModule
+    HttpClientModule, 
+    NbThemeModule.forRoot({ name: 'default' }), 
+    NbLayoutModule,
+    NbButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
