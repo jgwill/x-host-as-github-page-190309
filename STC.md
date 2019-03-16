@@ -7,6 +7,7 @@
 
 CR:
 * Ant-Design worked partially, 
+* https://github.com/ant-design/ant-design-icons
 ````js
 //That printed the icon SVG code,
 var ant = require("./node_modules/@ant-design/icons-angular/bundles/ant-design-icons-angular-icons.umd");
