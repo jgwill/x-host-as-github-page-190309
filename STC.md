@@ -1,6 +1,33 @@
 
 
+# @STCGoal :  Great Iconography
+```sh
+git checkout x-integrated-great-icons-ant-design-190315
+```
 
+
+CR:
+* Ant-Design worked partially, 
+* https://github.com/ant-design/ant-design-icons
+````js
+//That printed the icon SVG code,
+var ant = require("./node_modules/@ant-design/icons-angular/bundles/ant-design-icons-angular-icons.umd");
+
+console.log(ant.AccountBookFill);
+```
+
+
+```html
+<!--@urir https://simpleicons.org/ -->
+<img height="32" width="32" src="https://unpkg.com/simple-icons@latest/icons/magento.svg" />
+```
+
+
+
+
+
+---
+---
 
 # @STCGoal : Mastery HTTP Call API
 
