@@ -17,6 +17,7 @@ export class GixendofComponent implements OnInit {
   @Input() goal: string;
   @Input() path: string;
   @Input() state?: string;
+  @Input() content?: string;
 
   constructor() { 
    

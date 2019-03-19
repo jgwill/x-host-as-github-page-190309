@@ -1,22 +1,33 @@
-.state{}
-
-.state-progressing,.state-inprogress{
-   color: blue;
-}
-.state-completed,.state-complete{
-   color:green;
-}
-.state-reviewing,.state-inreview{
-   color : magenta;
-}
-.state-abandoned{
-   color: brown;
+.state-reviewing,
+.state-inreview {
+  color: magenta;
 }
 
+.state-progressing,
+.state-inprogress {
+  color: blue;
+}
 
-.gixendof-container{
-   font-style: italic;
-   font-size: 80%;
-   background-color: #ffCCFF;
-   
+.state-completed,
+.state-complete {
+  color: green;
+}
+.state-abandoned {
+  color: brown;
+}
+.state {
+  color: white;
+}
+
+.gixendof-container {
+  font-style: italic;
+  font-size: 80%;
+  background-color: #fffcff;
+}
+
+.gixendof-card {
+  max-width: 555px;
+}
+.card-actions {
+  margin-left: 25px;
 }
