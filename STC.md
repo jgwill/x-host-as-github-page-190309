@@ -1,4 +1,13 @@
 
+# @STCGoal: Mastery Shaping using Angular/CSS
+# CR: Experimentation on AFC 
+http://chat.afelia.jgwill.com:3012/src/x-material-shape.html
+
+
+
+
+---
+---
 
 # @STCGoal :  Great Iconography
 ```sh
