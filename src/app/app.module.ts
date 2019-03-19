@@ -56,6 +56,10 @@ import {XanimHeartbeatComponent} from './xanim/xanim-heartbeat/xanim-heartbeat.c
 import { HttpClientModule } from '@angular/common/http';
 import { XnoteslistComponent } from './xnoteslist/xnoteslist.component';
 import { SiconComponent } from './sicons/sicon/sicon.component';
+import { XshapesComponent } from './x/xshapes/xshapes.component';
+import { XhomeComponent } from './xhome/xhome.component';
+import { XpolyComponent } from './x/xpoly/xpoly.component';
+import { XshapingIndexComponent } from './x/xshaping-index/xshaping-index.component';
 
 
 
@@ -77,7 +81,11 @@ import { SiconComponent } from './sicons/sicon/sicon.component';
     Dt2agePipe,
     XanimHeartbeatComponent,
     XnoteslistComponent,
-    SiconComponent
+    SiconComponent,
+    XshapesComponent,
+    XhomeComponent,
+    XpolyComponent,
+    XshapingIndexComponent
   ],
   imports: [
     BrowserModule,
