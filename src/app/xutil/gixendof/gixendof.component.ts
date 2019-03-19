@@ -1,5 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+import {Resource} from "../../resource";
+
+
 export class StateClass {
   outstring: string;
   cssclass: string;
@@ -18,6 +21,7 @@ export class GixendofComponent implements OnInit {
   @Input() path: string;
   @Input() state?: string;
   @Input() content?: string;
+  @Input() resources?: Resource[];
 
   constructor() { 
    

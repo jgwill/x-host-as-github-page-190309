@@ -66,6 +66,7 @@ import { XshapingIndexComponent } from './x/xshaping-index/xshaping-index.compon
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { XflexlayoutComponent } from './x/xflexlayout/xflexlayout.component';
 import { XlayoutingsimpleComponent } from './x/xlayoutingsimple/xlayoutingsimple.component';
+import { XresourcecardComponent } from './xutil/xresourcecard/xresourcecard.component';
 
 
 @NgModule({
@@ -91,7 +92,8 @@ import { XlayoutingsimpleComponent } from './x/xlayoutingsimple/xlayoutingsimple
     XpolyComponent,
     XshapingIndexComponent,
     XflexlayoutComponent,
-    XlayoutingsimpleComponent
+    XlayoutingsimpleComponent,
+    XresourcecardComponent
   ],
   imports: [
     BrowserModule,

@@ -24,6 +24,16 @@
   </mat-card-header>
   <mat-card-content>
   <p class="card-actions">{{content}}</p>
+ 
+  <!--@cr If resources-->
+  <div *ngFor="let r of resources">
+      here are resources:{{r.title}}
+      <!--@o Looping foreach Resources defined-->
+      <xresourcecard [resource]="r">
+        <!--Resource Card display resources-->
+      </xresourcecard>
+    </div>
+  
   </mat-card-content>
   <mat-card-actions class="card-actions">
    <a [href]="urlrepobase + path" target="_blank">{{path}}</a>
