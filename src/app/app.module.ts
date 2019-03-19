@@ -60,6 +60,7 @@ import { XshapesComponent } from './x/xshapes/xshapes.component';
 import { XhomeComponent } from './xhome/xhome.component';
 import { XpolyComponent } from './x/xpoly/xpoly.component';
 import { XshapingIndexComponent } from './x/xshaping-index/xshaping-index.component';
+import { XmaterialShapeComponent } from './x/xmaterial-shape/xmaterial-shape.component';
 
 
 
@@ -85,7 +86,8 @@ import { XshapingIndexComponent } from './x/xshaping-index/xshaping-index.compon
     XshapesComponent,
     XhomeComponent,
     XpolyComponent,
-    XshapingIndexComponent
+    XshapingIndexComponent,
+    XmaterialShapeComponent
   ],
   imports: [
     BrowserModule,

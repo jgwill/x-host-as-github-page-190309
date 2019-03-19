@@ -10,7 +10,7 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "architect": {
@@ -28,6 +28,8 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
+              "./node_modules/@material/shape/_mixins.scss",
+              "./node_modules/@material/shape/_functions.scss",
               "src/styles.scss"
             ],
             "scripts": [],
