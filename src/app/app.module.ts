@@ -62,6 +62,10 @@ import { XpolyComponent } from './x/xpoly/xpoly.component';
 import { XshapingIndexComponent } from './x/xshaping-index/xshaping-index.component';
 
 
+//@stcgoal Responsiveness in Layouting
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { XflexlayoutComponent } from './x/xflexlayout/xflexlayout.component';
+import { XlayoutingsimpleComponent } from './x/xlayoutingsimple/xlayoutingsimple.component';
 
 
 @NgModule({
@@ -85,7 +89,9 @@ import { XshapingIndexComponent } from './x/xshaping-index/xshaping-index.compon
     XshapesComponent,
     XhomeComponent,
     XpolyComponent,
-    XshapingIndexComponent
+    XshapingIndexComponent,
+    XflexlayoutComponent,
+    XlayoutingsimpleComponent
   ],
   imports: [
     BrowserModule,
@@ -98,6 +104,7 @@ import { XshapingIndexComponent } from './x/xshaping-index/xshaping-index.compon
     //--------------
     MatInputModule,//,FormControl, FormGroupDirective, NgForm, Validators,    ErrorStateMatcher
     HttpClientModule
+    ,FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

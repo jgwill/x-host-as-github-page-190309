@@ -107,10 +107,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/cdk@~7.3.3":
-  version "7.3.3"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-7.3.3.tgz#02a2ad248141cd9968a5950ce0602da3fcf5445b"
-  integrity sha512-0M3nwq+c9+d+p0XeU12I9djutlsajRrxcu7AvHQXUs/5grYFsXsX0f468qXDiKmcgqGUBNtN2fBOUhGNlispuQ==
+"@angular/cdk@^7.3.5":
+  version "7.3.5"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-7.3.5.tgz#1b8a73ebb79371d8e1fe055a74bd5dd9515883a7"
+  integrity sha512-5m5HYm/D3/HveZdQQ4wtXk1Vm7bPiV+X5hPgegSHaoX6XONLIwSf821UqE+yYgjalILN44080+p3wHXtQT6Fkg==
   dependencies:
     tslib "^1.7.1"
   optionalDependencies:
@@ -172,6 +172,13 @@
   integrity sha512-QKwug2kWJC00zm2rvmD9mCJzsOkMVhSu8vqPWf83poWTh8+F9aIVWcy29W0VoGpBkSchOnK8hf9DnKVv28j9nw==
   dependencies:
     tslib "^1.9.0"
+
+"@angular/flex-layout@^7.0.0-beta.23":
+  version "7.0.0-beta.23"
+  resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-7.0.0-beta.23.tgz#eff267584284bf534932deac513827d1b059c92e"
+  integrity sha512-jH2i3i/M7SbK6scVlj2urVL5OhzwavbQ7KwvUjyc/UwccKnnzuOuWEGCINLja/aoaUO3I35LluCLv6a6VN0olA==
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/forms@~7.2.0":
   version "7.2.8"
@@ -2111,11 +2118,6 @@ domain-browser@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
   integrity sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
-
-dotenv@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
-  integrity sha512-HygQCKUBSFl8wKQZBSemMywRWcEDNidvNbjGVyZu3nbZ8qq9ubiPoGLMdRDpfSrpkkm9BXYFkpKxxFX38o/76w==
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
