@@ -9,9 +9,9 @@ export class XflexlayoutComponent implements OnInit {
 
   stc = {
     goal: "Mastery Responsiveness with Angular/Layout/Flex",
-    path: "src/app/x/xflexlayout/xflexlayout.component.html",
-    state: "completed",
-    content:"The layout Stack itself when small device."
+    path: "src/app/x/xlayoutingsimple/xlayoutingsimple.component.html",
+    state: "incompleted",
+    content:"see the xlayout simple"
   };
 
   constructor() { }
