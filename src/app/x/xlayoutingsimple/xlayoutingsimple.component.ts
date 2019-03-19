@@ -24,7 +24,7 @@ export class XlayoutingsimpleComponent implements OnInit {
       title: "Layout Demos - Alignments",
       subtitle: "Flex showing live the different layout align",
       url: "https://tburleson-layouts-demos.firebaseapp.com/#/docs",
-      note: "Really great visually insightful"
+      note: "Really great visually insightful live refreshing the type of layout we can have"
     }
     ]
   };
