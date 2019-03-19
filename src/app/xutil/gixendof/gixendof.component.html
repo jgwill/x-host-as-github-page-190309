@@ -26,13 +26,17 @@
   <p class="card-actions">{{content}}</p>
  
   <!--@cr If resources-->
-  <div *ngFor="let r of resources">
-      here are resources:{{r.title}}
+  <h3 *ngIf="resources">Resources:</h3>
+  <div fxLayout="row"  fxLayoutAlign="center start"  fxLayout.xs="column" fxFlexFill *ngIf="resources">
+    <div *ngFor="let r of resources"  >
+      
       <!--@o Looping foreach Resources defined-->
       <xresourcecard [resource]="r">
         <!--Resource Card display resources-->
       </xresourcecard>
+      
     </div>
+  </div>
   
   </mat-card-content>
   <mat-card-actions class="card-actions">
