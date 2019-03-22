@@ -1,4 +1,12 @@
-# STATE: I Replaced this project by : https://jgwill.github.io/ngmastery/docs/
+ https://jgwill.github.io/ngmastery/docs/
+---
+# ngLayout
+## Install
+```bash
+
+```
+## Use:
+
 
 
 https://angular.io/guide/deployment#deploy-to-github-pages
